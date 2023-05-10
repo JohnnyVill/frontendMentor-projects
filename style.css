@@ -1,0 +1,46 @@
+body {
+  background-color: #d5bdaf;
+  font-family: Montserrat;
+}
+
+/* Footer Links */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #ffddd2;
+}
+
+.card img {
+  max-width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+.card p {
+  margin: auto;
+  font-weight: 100;
+  color: #415a77;
+  text-align: center;
+}
